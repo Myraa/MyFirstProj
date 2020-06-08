@@ -1,0 +1,4 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    Hellow worlds Updated
+
+</aura:component>

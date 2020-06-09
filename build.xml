@@ -21,6 +21,7 @@
 		<delete dir="deploy-sf"/>
 		<mkdir dir="deploy-sf"/>
 		<gitDiff/>
+        <echo>Generating meta-xml : ${git.diff}</echo>
 		<for list="${git.diff}" param="currentDiff" delimiter="${line.separator}">
 			<sequential>
 				<if>

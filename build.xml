@@ -8,7 +8,8 @@
 <macrodef name="gitDiff">
 		<sequential>
 			<exec executable="git" outputproperty="git.diff">
-				<arg value="diff HEAD~" />
+				<arg value="diff" />
+                <arg value="HEAD~" />
 				<arg value="--pretty=format:" />
 				<arg value="--name-only" />
 			</exec>
